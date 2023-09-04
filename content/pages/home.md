@@ -1,7 +1,8 @@
 ---
 title: Tina Cloud Starter
 blocks:
-  - headline: Welcome to the Tina Starter
+  - tagline: 'Tagline '
+    headline: Hello tina
     text: >
       This project is set up to show you the basics of working with Tina. You're
       looking at the landing page, which pulls content from
@@ -9,13 +10,13 @@ blocks:
       all together in `pages/[filename].tsx`, all based on a config
       `tina/config.tsx`.
     actions:
+      - label: Try Demo
+        type: button
+        icon: false
+        link: /posts
       - label: Get Started
         type: button
         icon: true
-        link: /posts
-      - label: Read Blog
-        type: link
-        icon: false
         link: /posts
     image:
       src: /uploads/unsplash-75EFpyXu3Wg.jpg
@@ -56,6 +57,7 @@ blocks:
     color: primary
     _template: testimonial
 ---
+
 
 
 
